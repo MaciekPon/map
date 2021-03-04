@@ -1,8 +1,18 @@
+#container {
+    display:flex;
+    background-color: honeydew;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}
+
+
 .geocoder {
+    left: 38%;
+    margin: 0 auto;
     position: absolute;
     z-index: 1;
     width: 80%;
-    left: 40%;
     top: 10px;
     }
 
@@ -13,5 +23,5 @@
 #map {
     width: 80vw;
     height: 80vh;
-    margin-top: 75px;
+    margin-top: 50px;
     }
