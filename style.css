@@ -4,7 +4,10 @@ img {
 }
 
 button {
-    display: block;
+    border: 2px solid black;
+    cursor: pointer;
+    width: 80px;
+    height: 35px;
     box-shadow: 4px 4px 7px black;
 }
 
@@ -13,6 +16,12 @@ button {
     height: 50%;
     display: inline-block;
     margin-top: 50px;
+}
+
+#button {
+    top: 10px;
+    position: absolute;
+    left: 58%;
 }
 
 #container {
@@ -34,7 +43,6 @@ button {
     margin: 0 auto;
     position: absolute;
     z-index: 1;
-    width: 80%;
     top: 10px;
 }
 
